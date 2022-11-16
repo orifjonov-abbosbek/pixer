@@ -180,6 +180,7 @@ a {
 }
 .youtube_video {
   border-radius: 6px;
+  border: none;
 }
 .hero_sec_btn {
   display: block;
