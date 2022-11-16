@@ -58,7 +58,12 @@ a {
 
   --card-hover-bg-color: #1aab7b;
 }
-
+.site_header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background: #fff;
+}
 .container {
   max-width: 1256px;
   margin: 0 auto;
@@ -68,6 +73,7 @@ a {
 /*********************************** Header Start *************************************/
 .site_header_wrapper {
   display: flex;
+
   align-items: center;
   padding-top: 24px;
   justify-content: space-between;
@@ -80,9 +86,9 @@ a {
 .logo_icon:active {
   opacity: 0.6;
 }
-.header_logo_nav{
-    display: flex;
-    align-items: center;
+.header_logo_nav {
+  display: flex;
+  align-items: center;
 }
 .navbar {
   margin-right: 303px;
@@ -140,12 +146,10 @@ a {
 /*******************************************Main  Start************************************/
 .hero {
   display: flex;
-  padding-top: 91px;
+  padding-top: 180px;
   justify-content: space-between;
+  padding-bottom: 156px;
 }
-/* .hero-left__content {
-  width: 550px;
-} */
 
 .hero_sec_title {
   margin: 0;
@@ -190,4 +194,114 @@ a {
   border-radius: 6px;
   text-align: center;
   color: #ffffff;
+}
+.hero_sec_btn:hover {
+  background: #ffffff;
+  border: 1.5px solid var(--card-hover-bg-color);
+  border-radius: 6px;
+  color: var(--card-hover-bg-color);
+}
+.hero_sec_btn:active {
+  color: #fff;
+  background-color: var(--card-hover-bg-color);
+  border-radius: 6px;
+  opacity: 0.7;
+}
+
+/****************************************** help section ************************ */
+.help_sec {
+  background: #f2f4f6;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.help_sec_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+.help_sec_title {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 140%;
+  text-align: center;
+  color: #101010;
+  margin-bottom: 40px;
+}
+
+.card {
+  width: 384px;
+  height: 358px;
+  background: #f2f4f6;
+  border: 2px solid #e1e7ed;
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-left: 30px;
+  border-radius: 6px;
+}
+.card:hover {
+  background: #fff;
+  border-radius: 6px;
+  color: #ffffff;
+}
+.card:active {
+  background-color: var(--card-hover-bg-color);
+}
+.card:active .card_title {
+  color: #fff;
+}
+.card:active .card_desc {
+  color: #fff;
+}
+.card:active .card_link {
+  background-color: var(--card-hover-bg-color);
+  color: #fff;
+  text-decoration-line: underline;
+}
+.card:active .card_img {
+  background: #fff;
+}
+.card_head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 11px;
+}
+.card_title {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 140%;
+  color: #101010;
+}
+
+.card_img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  background: #e1e7ed;
+  border-radius: 84px;
+}
+.card_desc {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #636f87;
+  margin-bottom: 23px;
+}
+.card_link {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 140%;
+  outline: none;
+  color: #000000;
 }
