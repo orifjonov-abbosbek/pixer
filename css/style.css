@@ -315,6 +315,66 @@ a {
 
 /******************************* work section start  *******************************/
 
+.work_sec_title {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 140%;
+  text-align: center;
+  color: #101010;
+  margin-top: 100px;
+}
+.work_sec_desc {
+  width: 650px;
+  font-family: "Plus Jakarta Sans";
+  margin: 0 auto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+  color: #636f87;
+  margin-bottom: 90px;
+}
+.work_sec_card {
+  display: flex;
+  gap: 32px;
+  margin-bottom: 100px;
+}
+.work_sec_card2 {
+  display: flex;
+  gap: 32px;
+  margin-bottom: 100px;
+  margin-left: 200px;
+}
+
+.card_article_title {
+  width: 488px;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 140%;
+  color: #101010;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.card_article_desc {
+  width: 488px;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #636f87;
+}
+
+/*******************************work section end  ***********************************/
+/******************************* Contact section start  ******************************/
+.contact_sec {
+  margin-bottom: 200px;
+}
 .contact_sec_title {
   width: 411px;
   margin: 0 auto;
@@ -417,4 +477,4 @@ a {
   color: #858ea2;
   margin-top: 24px;
 }
-/********************************* work section end  */
+/********************************* Contact section end  */
