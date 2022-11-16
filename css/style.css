@@ -63,6 +63,7 @@ a {
   position: fixed;
   top: 0;
   background: #fff;
+  z-index: 1;
 }
 .container {
   max-width: 1256px;
@@ -214,10 +215,10 @@ a {
   padding-top: 50px;
   padding-bottom: 50px;
 }
-.help_sec_wrapper{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 32px;
+.help_sec_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
 }
 
 .help_sec_title {
@@ -240,6 +241,8 @@ a {
   padding-right: 30px;
   padding-left: 30px;
   border-radius: 6px;
+  cursor: pointer;
+  position: relative;
 }
 .card:hover {
   background: #fff;
@@ -304,4 +307,114 @@ a {
   line-height: 140%;
   outline: none;
   color: #000000;
+  position: absolute;
+  bottom: 25px;
 }
+
+/******************************* help section end *******************************/
+
+/******************************* work section start  *******************************/
+
+.contact_sec_title {
+  width: 411px;
+  margin: 0 auto;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 140%;
+  text-align: center;
+  color: #101010;
+  margin-top: 150px;
+  margin-bottom: 16px;
+}
+.contact_sec_desc {
+  margin: 0 auto;
+  width: 650px;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+  color: #636f87;
+}
+.contact_form {
+  width: 1008px;
+  background: #f2f4f6;
+  margin: 0 auto;
+  padding: 64px 312px 64px 312px;
+}
+
+.contact_form_inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.input {
+  width: 384px;
+  margin: 0 auto;
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid #636f87;
+  padding-bottom: 21px;
+  outline: none;
+}
+::placeholder {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  color: #101010;
+}
+.select {
+  width: 384px;
+  margin: 0 auto;
+  border: none;
+  background-color: transparent;
+  padding-bottom: 21px;
+  border: none;
+  border-bottom: 1px solid #636f87;
+  color: #777879;
+  background-color: transparent;
+  width: 100%;
+  cursor: pointer;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.contact_sec_btn {
+  width: 180px;
+  height: 59px;
+  color: #fff;
+  margin: 0 auto;
+  background: #1aab7b;
+  border-radius: 6px;
+}
+.contact_sec_btn:hover {
+  background-color: #fff;
+  border: 1px solid var(--card-hover-bg-color);
+  color: var(--card-hover-bg-color);
+}
+.contact_sec_btn:active {
+  background: #1aab7b;
+  opacity: 0.7;
+  border-radius: 6px;
+  color: #fff;
+}
+.contact_sec_end {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #858ea2;
+  margin-top: 24px;
+}
+/********************************* work section end  */
