@@ -431,20 +431,17 @@ a {
   color: #101010;
 }
 .select {
+  font-family: "Plus Jakarta Sans";
+  font-weight: 700;
   width: 384px;
   margin: 0 auto;
   border: none;
-  background-color: transparent;
   padding-bottom: 21px;
   border: none;
   border-bottom: 1px solid #636f87;
-  color: #777879;
-  background-color: transparent;
   width: 100%;
   cursor: pointer;
-  font-family: "Plus Jakarta Sans";
   font-style: normal;
-  font-weight: 700;
   font-size: 20px;
   line-height: 25px;
 }
